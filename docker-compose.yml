@@ -2,7 +2,8 @@ version: '3.4'
 
 services:
   naive:
-    image: zai7lou/naiveproxy-docker
+    # image: zai7lou/naiveproxy-docker
+    build: .
     container_name: naiveproxy
     tty: true
     restart: unless-stopped
